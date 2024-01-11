@@ -114,6 +114,12 @@ span {
 
 /*----------------------------------------------------------------------*/
 
+@media (max-width: 950px) {
+    .title {
+        margin-top: 25rem;
+    }
+}
+
 @media (max-width: 769px) {
     .title {
         gap: 0.4rem;
@@ -132,7 +138,7 @@ span {
         width: auto;
         height: auto;
         margin-left: 3rem;
-        margin-right: 2rem;
+        margin-right: 3.2rem;
         margin-top: 2rem;
     }
     

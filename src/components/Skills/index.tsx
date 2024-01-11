@@ -137,7 +137,7 @@ function Skills() {
                     {/* NOTION + FIGMA */}
                     <div className={styles.two}>
                         <div className={styles.one}>
-                            <SiNotion color='#0e0e0e' size={60}/>
+                            <SiNotion color='#0e0e0e' size={56}/>
                             <span className={styles.express}>Notion</span>
                         </div>
                         <div className={styles.one}>
@@ -158,6 +158,15 @@ function Skills() {
                         </div>
                     </div>
                     {/* WORDPRESS + EXCEL */}
+                    {/* MYSQL */}
+                    <div className={styles.two}>
+                        <div className={styles.one}>
+                            <DiMysql color='#056e97' size={70}/>
+                            <span className={styles.node}>MySQL</span>
+                        </div>
+                    </div>
+                    {/* MYSQL */}
+
                 </div>
                 {/* SOFTWARES */}
             </div>
