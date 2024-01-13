@@ -16,7 +16,38 @@ function Books() {
                     </p>
                 </div>
 
-                <div className={styles.containerBooks}></div>
+                <div className={styles.containerBooks}>
+                    {/* CIÊNTISTA DA COMPUTAÇÃO AUTODIDATA */}
+                    <div className={styles.two}>
+                        <div className={styles.book}>
+                            <img src='assets/autodidata.jpg'/>
+                        </div>
+                        <div className={styles.division}></div>
+                        <div className={styles.sinopse}>
+                            <p>
+                                Com esse livro obtive conhecimentos como: o que é um algoritmo, 
+                                tipos de Estrutura de Dados e como implementá-las, o que é e como 
+                                usar BigO notation nos meus algoritmos, pesquisa em Estrutura de Dados,
+                                etc.
+                            </p>
+                        </div>
+                    </div>
+                    {/* CIÊNTISTA DA COMPUTAÇÃO AUTODIDATA */}
+                    {/* ENTENDENDO ALGORITMOS */}
+                    <div className={styles.two}>
+                        <div className={styles.book}>
+                            <img src='assets/algoritmos.jpg'/>
+                        </div>
+                        <div className={styles.division}></div>
+                        <div className={styles.sinopse}>
+                            <p>
+                                Com esse livro (um dos mais famosos da área de programação) obtive conhecimentos como: estudo mais afundo sobre algoritmos, 
+                                tipos de pesquisa em Estrutura de Dados, tipos de Estruturas, etc.
+                            </p>
+                        </div>
+                    </div>
+                    {/* ENTENDENDO ALGORITMOS */}
+                </div>
             </div>
         </>
         

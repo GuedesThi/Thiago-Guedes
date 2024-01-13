@@ -133,12 +133,12 @@
 
     .half {
         margin-top: 2.5rem;
-        font-size: 0.8rem;
         gap: 0.4rem;
     }
 
     .half > h2 {
         font-weight: 600;
+        font-size: 1.2rem;
     }
     
     .aboutMe {
