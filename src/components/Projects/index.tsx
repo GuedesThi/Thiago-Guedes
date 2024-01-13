@@ -1,9 +1,7 @@
 import styles from './Projects.module.css'
 import { LuSwords } from "react-icons/lu";
 import { MdOutlineEmail } from "react-icons/md";
-import { PiEngine } from "react-icons/pi";
 import { TiWeatherCloudy } from "react-icons/ti";
-import { RiNotionFill } from "react-icons/ri";
 import { GiClothes } from "react-icons/gi";
 import { BsNintendoSwitch } from "react-icons/bs";
 import { MdLocalMovies } from "react-icons/md";
