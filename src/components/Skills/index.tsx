@@ -8,7 +8,7 @@ import styles from './Skills.module.css'
 function Skills() {
     return (
         <>
-            <div className={styles.title}>
+            <div className={styles.title} id="habilidades">
                 <h2>Minhas</h2>
                 <h2 className={styles.blue}>Habilidades/Skills</h2>
             </div>

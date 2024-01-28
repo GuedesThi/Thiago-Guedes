@@ -2,46 +2,43 @@ import styles from './Projects.module.css'
 import { LuSwords } from "react-icons/lu";
 import { MdOutlineEmail } from "react-icons/md";
 import { TiWeatherCloudy } from "react-icons/ti";
-import { GiClothes } from "react-icons/gi";
+import { GiClothes, GiPistolGun } from "react-icons/gi";
 import { BsNintendoSwitch } from "react-icons/bs";
-import { MdLocalMovies } from "react-icons/md";
 
 function Projects() {
     return (
         <>
-            <div className={styles.initialPhrase}>
+            <div className={styles.initialPhrase} id='projetos'>
                 <h2>Minhas</h2>
                 <h2 className={styles.blue}>Experiências</h2>
             </div>
 
             <div className={styles.container}>
 
-                {/* VISION + BUY ME */}
+                {/* Jogador Caro + BUY ME */}
                 <div className={styles.two}>
 
-                    <div className={styles.one}>
-                        <MdLocalMovies size={30} color='#c56104' />
-                        <h3>Vision</h3>
+                <div className={styles.one}>
+                        <LuSwords size={30} color='#9909f8' />
+                        <h3>Jogador Caro</h3>
                         <p>
-                            Aplicação para o usuário assistir filmes e séries online. O foco do 
-                            projeto foi a parte Back-End, e não a parte de Front-End.
-                            Tudo desenvolvido com Django Framework
+                            Um Website para usuários poderem jogar e gerenciar partidas de RPG's
+                            de Mesa através da Aplicação. Foi feito apenas para ser interface, e é
+                            responsivo para celulares
                         </p>
                         <div className={styles.categoria}>
                             <div className={styles.botao}>
                                 <span>Front-End</span>
                             </div>
                             <div className={styles.botao}>
-                                <span>Back-End</span>
+                                <span>React</span>
                             </div>
                             <div className={styles.botao}>
-                                <span>Django</span>
+                                <span>Vite.js</span>
                             </div>
                         </div>
                         <div className={styles.lado}>
-                            <a href='#'>Em Desenvolvimento</a>
-                            <a href='/'>|</a>
-                            <a href='https://github.com/GuedesThi/Vision-Django' target="_blank">Link GitHub</a>
+                            <a href='#'>Em Revisão</a>
                         </div>
                     </div>
 
@@ -64,7 +61,7 @@ function Projects() {
                         </div>
                     </div>
                 </div>
-                {/* VISION + BUY ME */}
+                {/* Jogador Caro + BUY ME */}
                 {/* THE WEATHER + FIND YOUR ADRESS */}
                 <div className={styles.two}>
 
@@ -113,30 +110,25 @@ function Projects() {
                     </div>
                 </div>
                 {/* THE WEATHER + FIND YOUR ADRESS */}
-                {/* JOGADOR CARO + SUPER MARIO */}
+                {/* GTA + SUPER MARIO */}
                 <div className={styles.two}>
 
-                    <div className={styles.one}>
-                        <LuSwords size={30} color='#9909f8' />
-                        <h3>Jogador Caro</h3>
+                <div className={styles.one}>
+                        <GiPistolGun size={30} color='#272626' />
+                        <h3>GTA V</h3>
                         <p>
-                            Um Website para usuários poderem jogar e gerenciar partidas de RPG's
-                            de Mesa através da Aplicação. Foi feito apenas para ser interface, e é
-                            responsivo para celulares
+                            Uma Landing Page para divulgar o game Grand Theft Auto V + GTA Online.
+                            Densevolvida para ter responsividade, simplicidade e charme
                         </p>
                         <div className={styles.categoria}>
                             <div className={styles.botao}>
                                 <span>Front-End</span>
                             </div>
-                            <div className={styles.botao}>
-                                <span>React</span>
-                            </div>
-                            <div className={styles.botao}>
-                                <span>Vite.js</span>
-                            </div>
                         </div>
                         <div className={styles.lado}>
-                            <a href='#'>Em Revisão</a>
+                            <a href='https://gta-v-landing-page.vercel.app/' target="_blank">Link Projeto</a>
+                            <a href='/'>|</a>
+                            <a href='https://github.com/GuedesThi/GTA-V-Landing-Page' target="_blank">Link GitHub</a>
                         </div>
                     </div>
 
@@ -162,7 +154,7 @@ function Projects() {
                         </div>
                     </div>
                 </div>
-                {/* JOGADOR CARO + SUPER MARIO */}
+                {/* GTA + SUPER MARIO */}
 
             </div>
                 {/* THE WEATHER + FIND YOUR ADRESS */}
